@@ -1,0 +1,18 @@
+{
+  "name": "github-explorer-class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/valteralvees/github-explorer-class.git",
+  "author": "Valter <valteralvees@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
