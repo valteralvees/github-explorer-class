@@ -19,11 +19,11 @@ export function RepositoryList() {
       <h1>Lista de repositórios</h1>
 
       <ul>
-        <RepositoryItem repository="unform2"/>
-        <RepositoryItem/>
-        <RepositoryItem/>
-        <RepositoryItem/>
+        {repositories.map(repository => {
+          return <RepositoryItem key={repository.name} repository={repository}/>
+        })}
       </ul>
+        
     </section>
   );
 }
